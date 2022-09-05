@@ -41,6 +41,17 @@ nav ul li a:hover {
     color: #C3E8EA;
 }
 
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #2D6379;
+    font-size: 100px;
+    text-align: center;
+}
+
+h1 span {
+    color: #96C355;
+}
+
 .ocean { 
   height: 5%;
   width: 100%;
