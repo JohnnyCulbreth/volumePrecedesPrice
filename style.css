@@ -49,7 +49,9 @@ h1 {
 }
 
 h1 span {
-    color: #96C355;
+    background: -webkit-linear-gradient(right, #96C355, #95e028);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ocean { 
