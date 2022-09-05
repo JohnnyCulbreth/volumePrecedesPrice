@@ -1,0 +1,9 @@
+body {
+    background-color: #1A1B25;
+}
+
+.logo {
+    width: 20vw;
+    height: auto;
+    margin: 15px;
+}
