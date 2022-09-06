@@ -41,6 +41,25 @@ nav ul li a:hover {
     color: #96C355;
 }
 
+button {
+  background-color: #96C355;
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #96C355;
+  color: #96C355;
+  transition: .4s;
+  cursor: pointer;
+}
+
 h1 {
     font-family: 'Fredoka One', cursive;
     color: #2D6379;
@@ -102,4 +121,14 @@ h1 span {
   50% {
     transform: translate3d(0,5px,0);
   }
+}
+
+
+
+/* MEDIA QUERIES HERE */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
 }
