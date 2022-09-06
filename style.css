@@ -1,7 +1,7 @@
 html, body { height: 100%; }
 body {
   background: radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -44,7 +44,7 @@ nav ul li a:hover {
 h1 {
     font-family: 'Fredoka One', cursive;
     color: #2D6379;
-    font-size: 95px;
+    font-size: 90px;
     text-align: center;
 }
 
@@ -52,6 +52,13 @@ h1 span {
     background: -webkit-linear-gradient(right, #96C355, #95e028);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.background {
+    background: linear-gradient(#015871, white);
+    height: 100vh;
+    width: auto;
+    margin: -10px;
 }
 
 .ocean { 
