@@ -63,7 +63,7 @@ button:hover {
 h1 {
     font-family: 'Fredoka One', cursive;
     color: #2D6379;
-    font-size: 90px;
+    font-size: 6.5vw;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ h1 span {
 
 .background {
     background: linear-gradient(#015871, white);
-    height: 100vh;
+    height: 150vh;
     width: auto;
     margin: -10px;
 }
@@ -103,6 +103,41 @@ h1 span {
   top: -175px;
   animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
   opacity: 1;
+}
+
+.nasdaq-quote {
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  font-size: 2vw;
+  width: 70vw;
+  text-align: center;
+  display: block;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nasdaq-quote span {
+  background: -webkit-linear-gradient(right, #97ff00, #96C355);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5vw;
+}
+
+.nasdaq-logo {
+  width: 10vw;
+  float: right;
+}
+
+.test-image {
+  width: 80vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes wave {
