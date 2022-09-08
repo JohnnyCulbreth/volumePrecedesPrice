@@ -74,7 +74,7 @@ h1 span {
 }
 
 .background {
-    background: linear-gradient(#015871, white);
+    background: linear-gradient(#015871, white 98%);
     height: 150vh;
     width: auto;
     margin: -10px;
@@ -138,6 +138,12 @@ h1 span {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.background2 {
+  background-color: white;
+  height: 150vh;
+  width: auto;
 }
 
 @keyframes wave {
