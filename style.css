@@ -133,18 +133,11 @@ h1 span {
 }
 
 .test-image {
-  width: 80vw;
+  width: 65vw;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.background2 {
-  background: linear-gradient(white, #015871);
-  height: 150vh;
-  width: auto;
-  margin: -10px;
 }
 
 .tracking-quote {
@@ -166,6 +159,31 @@ h1 span {
   -webkit-text-fill-color: transparent;
   font-family: 'Fredoka One', cursive;
   font-size: 2.5vw;
+}
+
+.background2 {
+  background: linear-gradient(white, #015871);
+  height: 150vh;
+  width: auto;
+  margin: -10px;
+}
+
+.alert-section {
+  width: 80vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.alert-section ul li {
+  font-family: 'Fredoka One', cursive;
+  color: #2D6379;
+  font-size: 2vw;
+}
+
+.volume-alert-img {
+  width: 40vw;
 }
 
 @keyframes wave {
