@@ -75,7 +75,7 @@ h1 span {
 
 .background {
   background: linear-gradient(#015871, white 95%);
-  height: 150vh;
+  height: 300vh;
   width: auto;
   margin: -10px;
 }
@@ -149,6 +149,7 @@ h1 span {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   letter-spacing: 1px;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -161,18 +162,12 @@ h1 span {
   font-size: 2.5vw;
 }
 
-.background2 {
-  background: linear-gradient(white, #015871);
-  height: 150vh;
-  width: auto;
-  margin: -10px;
-}
-
 .alert-section {
   width: 80vw;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   display: flex;
 }
 
