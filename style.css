@@ -178,6 +178,14 @@ h1 span {
   margin-top: 50px;
 }
 
+.alert-section ul li span {
+  background: -webkit-linear-gradient(right, #97ff00, #96C355);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2vw;
+}
+
 .volume-alert-img {
   width: 40vw;
 }
